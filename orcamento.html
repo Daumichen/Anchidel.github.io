@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="icon" href="/favicon.svg" type="svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/menu_dropdown/js.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Anchidel - Orçamentos</title>
+</head>
+<body>
+    <header class="header" aria-label="menu">
+        <a href="/index.html" class="logo"></a>
+        <span class="separador"></span>
+            <div aria-label="produtos" class="header_topico_produtos">
+                <a href="/produto_cama.html">Cama</a>
+                <span class="header_topico_separador"></span>
+                <a href="/produto_cortina.html">Cortinas</a>
+                <span class="header_topico_separador"></span>
+                <a href="/produto_banho.html">Banho</a>
+            </div>
+            <span class="separador_responsivo"></span>
+            <div>
+                <a href="javascript://" class="clique_produtos">PRODUTOS</a>
+                <ul class="produtos_op">
+                    <li><a href="/produto_cama.html"> CAMA</a></li>
+                    <p class="produtos_op_separador"></p>
+                    <li><a href="/produto_cortina.html"> CORTINAS</a></li>
+                    <p class="produtos_op_separador"></p>
+                    <li><a href="/produto_banho.html"> BANHO</a></li>
+                </ul>
+            </div>
+            <span class="separador"></span>
+            <div aria-label="informações" class="header_topico">
+                <a href="/local.html">LOCAL</a>
+                <a href="/contato.html">CONTATO</a>
+                <a href="./orcamento.html">ORÇAMENTOS</a>
+            </div>
+    </header>
+    <div class="orcamento_fundo" aria-label="orçamento">
+        <h2 class="orcamento_titulo">ORÇAMENTO<span>.</span></h2>
+        <p class="orcamento_info">Respondemos em poucas horas via Whatsapp ou email.</p>
+        <section class="orcamento_bloco">
+                <div class="orcamento_bloco_info" aria-label="endereço">
+                    <h3 class="orcamento_bloco_info_titulo">Lojas Físicas</h3>
+                    <div>
+                        <p class="orcamento_bloco_info_local">Rua XV de Novembro, 358<br>Rua Dr. Braguinha, 420 </p>
+                    </div>
+                    <div>
+                        <p class="orcamento_bloco_info_email">anchidel.confc@outlook.com </p>
+                    </div>
+                    <div>
+                        <p class="orcamento_bloco_info_telefone">15 32115236 </p>
+                    </div>
+                    <h4 class="orcamento_info_texto_frase">Clique no ícone para ser<br> redirecionado</h4>
+                    <div class="contato_info_texto_icones">
+                        <div class="contato_info_texto_icones">
+                            <a href="https://api.whatsapp.com/send?phone=5515997570701" class="contato_info_texto_icones_wpp"></a >
+                            <a href="https://www.instagram.com/tecidos.anchidel/" class="contato_info_texto_icones_insta"> </a >
+                            <a href="https://www.facebook.com/tecidos.anchidel" class="contato_info_texto_icones_face"> </a >
+                        </div>
+                    </div>
+                </div>
+                <div class="orcamento_bloco_form" aria-label="formulário">
+                    <div>
+                        <form action="" class="formulario" class="formalario_nome">
+                            <label for="nome">Nome</label>
+                            <input class="placeholder" type="text" id="nome" name="nome" placeholder="Como podemos te chamar?">
+                        </form>
+                    </div>
+                    <div>
+                        <form action="" class="formulario" class="formalario_telefone">
+                            <label for="telefone">Telefone p/ contato</label>
+                            <input class="placeholder" type="text" id="telefone" name="telefone" placeholder="(21) 99999-9999">
+                        </form>
+                    </div>
+                    <div>
+                        <form action="" class="formulario" class="formalario_email">
+                            <label for="email">Email p/ contato</label>
+                            <input class="placeholder" type="text" id="email" name="email" placeholder="Digite seu melhor email">
+                        </form>
+                    </div>
+                    <div class="formulario">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea class="placeholder" class="formalario_msg" id="mensagem" rows="5" name="mensagem" placeholder="Descreva com detalhes o que você precisa"></textarea>
+                    </div>
+                    <button class="main_sobre_botao">ENVIAR MENSAGEM</button>
+                </div>
+        </section>
+    <div>
+</body>
+</html>

@@ -1,0 +1,271 @@
+.destaques_fundo{
+    background: #F7F7F7;
+}
+.destaques{
+    max-width: 1400px;
+    margin: 40px auto;
+    margin-bottom: 0;
+    font-family: Montsserat;
+}
+.destaques_titulo{
+    color: #141414;
+    padding: 40px 0px;
+    font-size: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.destaques_produtos{
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 40px;
+    overflow-x: auto;
+}
+.destaques_produtos_cama{
+    grid-column: 1 / 2;
+}
+.destaques_produtos_cama_img{
+    width: 360px;
+    height: 360px;
+    border-radius: 8px;
+    box-shadow: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.1));
+}
+.destaques_produtos_cama_descricao{
+    padding-left:25px;
+    padding-top: 5px;
+}
+.destaques_produtos_cama_descricao_titulo{
+    color: #141414;
+    position: relative;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.destaques_produtos_cama_descricao_titulo::before{
+    content: "";
+    background: #B81212;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    left: -20px;
+    bottom: 10px;
+}
+a:hover .destaques_produtos_cama_descricao_titulo::before{
+    height: 16px;
+}
+a:hover .destaques_produtos_cama_img{
+    width: 420px;
+    height: 420px;
+}
+.destaques_produtos_cama_descricao ul{
+    padding: 10px 0px;
+}
+.destaques_produtos_cama_descricao li{
+    padding: 6px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3D3D3D;
+    font-size: 1.2rem;
+}
+.destaques_produtos_cortina{
+    grid-column: 1 / 2;
+}
+.destaques_produtos_cortina_img{
+    width: 360px;
+    height: 360px;
+    border-radius: 8px;
+    box-shadow: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.1));
+}
+a:hover .destaques_produtos_cortina_img{
+    width: 420px;
+    height: 420px;
+}
+.destaques_produtos_cortina_descricao{
+    padding-left:25px;
+    padding-top: 5px;
+}
+.destaques_produtos_cortina_descricao_titulo{
+    color: #141414;
+    position: relative;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.destaques_produtos_cortina_descricao_titulo::before{
+    content: "";
+    background: #B81212;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    left: -20px;
+    bottom: 10px;
+}
+a:hover .destaques_produtos_cortina_descricao_titulo::before{
+    height: 16px;
+}
+.destaques_produtos_cortina_descricao ul{
+    padding: 10px 0px;
+}
+.destaques_produtos_cortina_descricao li{
+    padding: 6px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3D3D3D;
+    font-size: 1.2rem;
+}.destaques_produtos_outros{
+    grid-column: 1 / 2;
+}
+.destaques_produtos_outros_img{
+    width: 360px;
+    height: 360px;
+    border-radius: 8px;
+    box-shadow: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.1));
+}
+a:hover .destaques_produtos_outros_img{
+    width: 420px;
+    height: 420px;
+}
+.destaques_produtos_outros_descricao{
+    padding-left:25px;
+    padding-top: 5px;
+    max-width: 375px;
+}
+.destaques_produtos_outros_descricao_titulo{
+    color: #141414;
+    position: relative;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.destaques_produtos_outros_descricao_titulo::before{
+    content: "";
+    background: #B81212;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    left: -20px;
+    bottom: 10px;
+}
+a:hover .destaques_produtos_outros_descricao_titulo::before{
+    height: 16px;
+}
+.destaques_produtos_outros_descricao ul{
+    padding: 10px 0px;
+}
+.destaques_produtos_outros_descricao li{
+    padding: 6px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3D3D3D;
+    font-size: 1.2rem;
+}
+@media (max-width: 1100px){
+    .destaques img{
+        height: 300px;
+        width: 300px;
+    }
+    a:hover .destaques_produtos_cama_img, a:hover .destaques_produtos_cortina_img,
+    a:hover .destaques_produtos_outros_img{
+        width: 310px;
+        height: 310px;
+    }
+    .destaques_produtos{
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1061px){
+    .destaques_titulo{
+        margin-left: 20px;
+    }
+}
+@media (max-width:861px){
+    .destaques img{
+        height: 280px;
+        width: 280px;
+    }
+    .destaques_produtos_cama_descricao_titulo, .destaques_produtos_cortina_descricao_titulo,
+    .destaques_produtos_outros_descricao_titulo{
+        font-size: 1.25rem;
+    }
+    .destaques li{
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+}
+@media (max-width:541px){
+    a:hover .destaques_produtos_cama_img, a:hover .destaques_produtos_cortina_img,
+    a:hover .destaques_produtos_outros_img{
+        width: 280px;
+        height: 280px;
+    }
+    .destaques li span{
+        display: none;
+    }
+    .destaques li{
+        font-size: 0.875rem;
+        padding-bottom: 0px;
+    }
+    .destaques_produtos{
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:461px){
+    .destaques img{
+        width: 220px;
+        height: 220px;
+    }
+    a:hover .destaques_produtos_cama_img, a:hover .destaques_produtos_cortina_img,
+    a:hover .destaques_produtos_outros_img{
+        width: 220px;
+        height: 220px;
+    }
+    .destaques li{
+        font-size: 0.875rem;
+        padding-bottom: 0px;
+    }
+    .destaques_titulo{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:381px){
+    .destaques img{
+        width: 160px;
+        height: 160px;
+    }
+    a:hover .destaques_produtos_cama_img, a:hover .destaques_produtos_cortina_img,
+    a:hover .destaques_produtos_outros_img{
+        width: 160px;
+        height: 160px;
+    }
+    .destaques li{
+        font-size: 0.875rem;
+        padding-bottom: 0px;
+    }
+    .destaques_produtos_cama_descricao_titulo, .destaques_produtos_cortina_descricao_titulo,
+    .destaques_produtos_outros_descricao_titulo{
+        font-size: 1rem;
+    }
+    .destaques_produtos_cama_descricao_titulo span {
+        display: none;
+    }
+    .destaques ul{
+        padding-top: 0px;
+    }
+    .destaques_produtos_cortina_descricao_titulo::before{
+        bottom: 7px;
+    }
+    .destaques_produtos_cama_descricao_titulo::before{
+        bottom: 7px;
+    }
+    .destaques_produtos_outros_descricao_titulo::before{
+        bottom: 7px;
+    }
+}
+@media (max-width:301px){
+    .destaques li{
+        font-size: 0.8rem;
+    }
+    .destaques img{
+        width: 150px;
+        height: 150px;
+    }
+    .destaques ul{
+        padding-bottom: 0px;
+    }
+}
