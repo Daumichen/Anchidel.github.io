@@ -182,7 +182,7 @@ details{
     position: absolute;
     height: 50px;
     width: 50px;
-    background: url(/img/jackquard.svg) no-repeat;
+    background: url(../img/jackquard.svg) no-repeat;
     left: 0px;
     bottom: -5px;
 }
@@ -199,7 +199,7 @@ details{
     position: absolute;
     height: 50px;
     width: 50px;
-    background: url(/img/blackout.svg) no-repeat;
+    background: url(../img/blackout.svg) no-repeat;
     left: 0px;
     bottom: -5px;
 }
@@ -216,7 +216,7 @@ details{
     position: absolute;
     height: 50px;
     width: 50px;
-    background: url(/img/linhao.svg) no-repeat;
+    background: url(../img/linhao.svg) no-repeat;
     left: 0px;
     bottom: -5px;
 }
@@ -233,7 +233,7 @@ details{
     position: absolute;
     height: 50px;
     width: 50px;
-    background: url(/img/voal.svg) no-repeat;
+    background: url(../img/voal.svg) no-repeat;
     left: 0px;
     bottom: -5px;
 }
@@ -250,7 +250,7 @@ details{
     position: absolute;
     height: 50px;
     width: 50px;
-    background: url(/img/oxford.svg) no-repeat;
+    background: url(../img/oxford.svg) no-repeat;
     left: 0px;
     bottom: -5px;
 }
