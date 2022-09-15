@@ -32,7 +32,7 @@
     position: relative;
 }
 .logo{
-    background: url(/img/Logo_Anchidel.svg) no-repeat center;
+    background: url(../img/Logo_Anchidel.svg) no-repeat center;
     height: 30px;
     width: 175px;
 }
