@@ -121,7 +121,7 @@ details{
     position: absolute;
     height: 50px;
     width: 50px;
-    background: url(/icones/icone_qualidade.svg) no-repeat;
+    background: url(../icones/icone_qualidade.svg) no-repeat;
     left: 0px;
     bottom: -10px;
 }
@@ -133,7 +133,7 @@ details{
     position: absolute;
     height: 50px;
     width: 50px;
-    background: url(/icones/icone_fabricacao.svg) no-repeat;
+    background: url(../icones/icone_fabricacao.svg) no-repeat;
     left: 0;
     bottom: -10px;
 }
@@ -145,7 +145,7 @@ details{
     position: absolute;
     height: 50px;
     width: 50px;
-    background: url(/icones/icone_duradouro.svg) no-repeat;
+    background: url(../icones/icone_duradouro.svg) no-repeat;
     left: 0;
     bottom: -10px;
 }
