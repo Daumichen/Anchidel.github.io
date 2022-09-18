@@ -74,17 +74,17 @@
     left: 0;
     top: -15px;
 }
-.orcamento_info_texto_icones_wpp{
+.icones_wpp{
     background: url(../icones/wpp-desk.svg) no-repeat center;
     height: 80px;
     width: 80px;
 }
-.orcamento_info_texto_icones_insta{
+.icones_insta{
     background: url(../icones/insta-desk.svg) no-repeat center;
     height: 80px;
     width: 80px;
 }
-.orcamento_info_texto_icones_face{
+.icones_face{
     background: url(/icones/face-desk.svg) no-repeat center;
     height: 80px;
     width: 80px;
