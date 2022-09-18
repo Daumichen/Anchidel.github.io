@@ -36,17 +36,17 @@
     padding: 30px 0px;
 }
 .contato_info_texto_icones_wpp{
-    background: url(/icones/wpp-desk.svg) no-repeat center;
+    background: url(../icones/wpp-desk.svg) no-repeat center;
     height: 80px;
     width: 80px;
 }
 .contato_info_texto_icones_insta{
-    background: url(/icones/insta-desk.svg) no-repeat center;
+    background: url(../icones/insta-desk.svg) no-repeat center;
     height: 80px;
     width: 80px;
 }
 .contato_info_texto_icones_face{
-    background: url(/icones/face-desk.svg) no-repeat center;
+    background: url(../icones/face-desk.svg) no-repeat center;
     height: 80px;
     width: 80px;
 }

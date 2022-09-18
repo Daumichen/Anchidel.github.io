@@ -44,7 +44,7 @@
 .orcamento_bloco_info_local::before{
     position: absolute;
     content: "";
-    background: url(/icones/icone_local.svg) no-repeat center;
+    background: url(../icones/icone_local.svg) no-repeat center;
     height: 50px;
     width: 50px;
     left: 0;
@@ -56,7 +56,7 @@
 .orcamento_bloco_info_email::before{
     position: absolute;
     content: "";
-    background: url(/icones/icone_email.svg) no-repeat center;
+    background: url(../icones/icone_email.svg) no-repeat center;
     height: 50px;
     width: 50px;
     left: 0;
@@ -68,19 +68,19 @@
 .orcamento_bloco_info_telefone::before{
     position: absolute;
     content: "";
-    background: url(/icones/icone_telefone.svg) no-repeat center;
+    background: url(../icones/icone_telefone.svg) no-repeat center;
     height: 50px;
     width: 50px;
     left: 0;
     top: -15px;
 }
 .orcamento_info_texto_icones_wpp{
-    background: url(/icones/wpp-desk.svg) no-repeat center;
+    background: url(../icones/wpp-desk.svg) no-repeat center;
     height: 80px;
     width: 80px;
 }
 .orcamento_info_texto_icones_insta{
-    background: url(/icones/insta-desk.svg) no-repeat center;
+    background: url(../icones/insta-desk.svg) no-repeat center;
     height: 80px;
     width: 80px;
 }

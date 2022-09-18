@@ -280,6 +280,9 @@ details{
     .produto_info_descricao span{
         display: none;
     }
+    .cama_info{
+        margin-left: 20px;
+    }
 }
 @media (max-width:900px){
     .produto_img{
