@@ -295,6 +295,9 @@ details{
     .produto_info_descricao{
         font-size: 1rem;
     }
+    .produto_titulo{
+        padding-top: 20px;
+    }
 }
 @media(max-width:700px){
     .produto_img{
