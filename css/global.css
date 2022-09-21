@@ -4,7 +4,7 @@ body {
     color: #141414;
 }
 h1,h2,h3,h4,ul,li,a{
-    margin: ;
+    margin: 0;
     padding: 0px;
     font-family: Montserrat;
 }
@@ -20,4 +20,7 @@ a {
 }
 h3{
     margin: 0px;
+}
+header a , footer a{
+    color:#141414
 }
