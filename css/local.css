@@ -54,6 +54,7 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    object-fit:cover;
 }
 .local_loja_imagem:hover{
     height: 220px;
