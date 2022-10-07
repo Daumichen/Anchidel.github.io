@@ -1,12 +1,12 @@
 <?php
 
-$email = "formulario@anchidelenxovais.com.br";
-$senha = "D@umichen225";
+$email = "contato@anchidelenxovais.com.br";
+$senha = "anchidel358";
 
 $smtp = "smtp.titan.email";
 $porta = 465;
 
-$email_contato = "formulario@anchidelenxovais.com.br";
+$email_contato = "contato@anchidelenxovais.com.br";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
