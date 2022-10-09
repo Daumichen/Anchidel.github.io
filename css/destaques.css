@@ -161,8 +161,8 @@ a:hover .destaques_produtos_outros_descricao_titulo::before{
     }
     a:hover .destaques_produtos_cama_img, a:hover .destaques_produtos_cortina_img,
     a:hover .destaques_produtos_outros_img{
-        width: 310px;
-        height: 310px;
+        width: 100px;
+        height: 280px;
     }
     .destaques_produtos{
         justify-content: flex-start;
