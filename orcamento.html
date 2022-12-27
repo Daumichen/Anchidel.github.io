@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preload" href="../css/style.css" as="style">
+    <link rel="icon" href="/favicon.svg" type="svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../menu_dropdown/js.js"></script>
+    <script src="../formulario_js/form_js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="description" content="Clique e solicite um orçamento rapidamente, seja para uso pessoal ou intitucional para hotelarias, casas de repouso,
+     restaurantes, escolas, pousadas, etc.">
+    <title>Anchidel Enxovais Sorocaba - Faça seu orçamento conosco sem compromisso!</title>
+</head>
+<body>
+    <header class="header" aria-label="menu">
+        <a href="../index.html" class="logo"></a>
+        <span class="separador"></span>
+            <div aria-label="produtos" class="header_topico_produtos">
+                <a href="../produtos/produto_cama.html">Cama</a>
+                <span class="header_topico_separador"></span>
+                <a href="../produtos/produto_cortina.html">Cortinas</a>
+                <span class="header_topico_separador"></span>
+                <a href="../produtos/produto_banho.html">Banho</a>
+            </div>
+            <span class="separador_responsivo"></span>
+            <div>
+                <a href="javascript://" class="clique_produtos">PRODUTOS</a>
+                <ul class="produtos_op">
+                    <li><a href="../produtos/produto_cama.html"> CAMA</a></li>
+                    <p class="produtos_op_separador"></p>
+                    <li><a href="../produtos/produto_cortina.html"> CORTINAS</a></li>
+                    <p class="produtos_op_separador"></p>
+                    <li><a href="../produtos/produto_banho.html"> BANHO</a></li>
+                </ul>
+            </div>
+            <span class="separador"></span>
+            <div aria-label="informações" class="header_topico">
+                <a href="../infos_orcamento/local.html">LOCAL</a>
+                <a href="../infos_orcamento/contato.html">CONTATO</a>
+                <a href="../infos_orcamento/orcamento.html">ORÇAMENTOS</a>
+            </div>
+    </header>
+    <div class="orcamento_fundo" aria-label="orçamento">
+        <h2 class="orcamento_titulo">ORÇAMENTO<span>.</span></h2>
+        <p class="orcamento_info">Respondemos em poucas horas via Whatsapp ou email.</p>
+        <section class="orcamento_bloco">
+                <div class="orcamento_bloco_info" aria-label="endereço">
+                    <h3 class="orcamento_bloco_info_titulo">Lojas Físicas</h3>
+                    <div>
+                        <p class="orcamento_bloco_info_local">Rua XV de Novembro, 358<br>Rua Dr. Braguinha, 420 </p>
+                    </div>
+                    <div>
+                        <p class="orcamento_bloco_info_email">anchidel.confc@hotmail.com </p>
+                    </div>
+                    <div>
+                        <p class="orcamento_bloco_info_telefone">15 32115236 </p>
+                    </div>
+                    <h4 class="orcamento_info_texto_frase">Clique no ícone para ser<br> redirecionado</h4>
+                    <div class="contato_info_texto_icones">
+                        <div class="contato_info_texto_icones">
+                            <a href="https://api.whatsapp.com/send?phone=5515997570701" class="icones_wpp"></a >
+                            <a href="https://www.instagram.com/tecidos.anchidel/" class="icones_insta"> </a >
+                            <a href="https://www.facebook.com/tecidos.anchidel" class="icones_face"></a >
+                        </div>
+                    </div>
+                </div>
+                <div class="orcamento_bloco_form" aria-label="formulário">
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <input type="hidden" name="accessKey" value="4262d2e6-5f22-4e20-acb3-1359b81934a0">
+                        <div class="formulario" class="formalario_nome">
+                            <label for="nome">Nome</label>
+                            <input class="placeholder" type="text" name="name"  placeholder="Como podemos te chamar?"
+                            id="nome" required>
+                        </div>
+                        <div class="formulario" class="formalario_telefone">
+                            <label for="telefone">Telefone p/ contato</label>
+                            <input class="placeholder" type="text" name="phone"  placeholder="(21) 99999-9999" id="telefone" required> 
+                        </div>
+                        <div class="formulario" class="formalario_email">
+                            <label for="email">Email p/ contato</label>
+                            <input type="text" name="email" id="email" class="placeholder" placeholder="Digite seu melhor email" required>
+                        </div>
+                        <div class="formulario">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea required name="message" id="mensagem" rows="5" placeholder="Descreva com detalhes o que você precisa" class="placeholder" 
+                            class="formalario_msg"></textarea>
+                        </div>
+                        <button type="submit" value="Sumit" class="main_sobre_botao">SOLICITAR ORÇAMENTO</button>
+                    </form>
+                </div>
+        </section>
+    <div>
+</body>
+</html>
